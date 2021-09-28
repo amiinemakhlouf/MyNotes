@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Notes </string>
+    <string name="title">title</string>
+    <string name="put_your_note_here">put your note here</string>
+    <string name="content_hint"><font size="20">Write your content</font></string>
+    <string name="menu">menu</string>
+    <string name="favorites">favorites</string>
+    <string name="sport"    >sport</string>
+    <string name="work">work</string>
+    <string name="personal">personal</string>
+</resources>
