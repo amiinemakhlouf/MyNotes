@@ -5,7 +5,10 @@
     <string name="content_hint"><font size="20">Write your content</font></string>
     <string name="menu">menu</string>
     <string name="favorites">favorites</string>
-    <string name="sport"    >sport</string>
+    <string name="sport">sport</string>
     <string name="work">work</string>
     <string name="personal">personal</string>
+    <string name="order_confirmation">hello</string>
+    <string name="ok">ok</string>
+    <string name="yourNote">YourNote</string>
 </resources>

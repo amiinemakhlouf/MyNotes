@@ -3,15 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/account_heart.xml" value="0.329" />
+        <entry key="app/src/main/res/drawable-v24/delete.xml" value="0.318" />
         <entry key="app/src/main/res/drawable-v24/heart.xml" value="0.18611111111111112" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.371875" />
         <entry key="app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.371875" />
+        <entry key="app/src/main/res/drawable/ic_baseline_work_24.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.371875" />
         <entry key="app/src/main/res/drawable/menu.xml" value="0.371875" />
+        <entry key="app/src/main/res/layout/activity_add_note.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_demo_aler.xml" value="0.3302083333333333" />
+        <entry key="app/src/main/res/layout/activity_dialog.xml" value="0.14629629629629629" />
         <entry key="app/src/main/res/layout/activity_display.xml" value="0.266304347826087" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.266304347826087" />
         <entry key="app/src/main/res/layout/drawer_header.xml" value="0.2595108695652174" />
+        <entry key="app/src/main/res/layout/note_items.xml" value="0.3302083333333333" />
         <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/menu/menu_bottom_nav.xml" value="0.35572916666666665" />
       </map>

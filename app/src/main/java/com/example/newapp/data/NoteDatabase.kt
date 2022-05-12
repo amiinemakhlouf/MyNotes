@@ -6,7 +6,7 @@ import com.example.newapp.Constants
 import com.example.newapp.data.dao.NoteDao
 import com.example.newapp.data.entities.Note
 
-@Database(entities = [Note::class], version = 1)
+@Database(entities = [Note::class], version = 2)
 abstract class NoteDatabase : RoomDatabase() {
 
      abstract  val noteDAO:NoteDao

@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-            >
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:title="@string/work"
+        android:id="@+id/favorites"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/favorites"
+
+        />
+    <item
+        android:id="@+id/work"
         android:icon="@drawable/ic_baseline_work_24"
-        android:id="@+id/work"/>
+        android:title="@string/work" />
     <item
-        android:title="@string/personal"
-        android:icon="@drawable/heart"
-        android:id="@+id/love"/>
+        android:id="@+id/love"
+        android:icon="@drawable/account_heart"
+        android:title="@string/personal" />
 
-<item
-    android:title="@string/sport"
-    android:icon="@drawable/ic_baseline_sports_soccer_24"
-    android:id="@+id/sport"
+    <item
+        android:id="@+id/sport"
+        android:icon="@drawable/ic_baseline_sports_soccer_24"
+        android:title="@string/sport"
 
-    />
+        />
+
 
 
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <com.google.android.material.textview.MaterialTextView
+       android:id="@+id/text"
+       android:text="dzaaaaaaaaaaazadddd"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       />
+
+
+    <ImageView
+        android:id="@+id/love"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:src="@drawable/love"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text" />
+
+    <ImageView
+        android:id="@+id/trash"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:src="@drawable/delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/love" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

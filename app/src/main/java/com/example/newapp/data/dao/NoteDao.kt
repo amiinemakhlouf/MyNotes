@@ -8,9 +8,13 @@ import java.util.concurrent.Flow
 @Dao
 interface  NoteDao{
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-     suspend fun  upsertNote(note:Note)
+      fun  upsertNote(note:Note)
     @Delete
-     suspend  fun deleteNote(note:Note)
+      fun deleteNote(note:Note)
      @Query("select * from note")
-     fun getNotes():LiveData<List<Note>>
+     fun getNotes():LiveData<List<Note>?>
+    @Update
+
+    fun updateUsers(vararg users: Note)
+
 }

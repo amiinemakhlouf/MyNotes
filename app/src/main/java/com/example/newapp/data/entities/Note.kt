@@ -14,12 +14,10 @@ data class Note(
     @ColumnInfo(name="Content")
     val content:String,
     @ColumnInfo(name="Category")
-    val category:String
+    val category:String,
+    var isFavorite :Boolean?=false
 )
 {       @PrimaryKey(autoGenerate = true)
           var id:Int?=null
-    companion object{
-        val noteColors= listOf(RED, GREEN,BLUE)
 
-    }
 }

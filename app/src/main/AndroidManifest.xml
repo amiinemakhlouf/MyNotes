@@ -10,6 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewApp">
+
+        <activity
+            android:name=".ui.AddNoteActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
         <activity
             android:name=".ui.main_activity.MainActivity"
             android:exported="true" />
