@@ -11,7 +11,7 @@ import com.example.newapp.databinding.NoteItemsBinding
 
 class NoteAdapter (
     val context:Context,
-    var dataSEt: MutableList<Note>,
+    var dataSEt: List<Note>,
     val listenner:ClickListener
 ) : RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
     inner class NoteViewHolder(val binding: NoteItemsBinding) :
@@ -22,6 +22,13 @@ class NoteAdapter (
             binding.trash.setOnClickListener {
 
                 listenner.onItemDeleted(adapterPosition)
+            }
+        }
+        fun addToFavorite(){
+
+            binding.love.setOnClickListener {
+                listenner.onAddItemToFavorites(adapterPosition)
+
             }
         }
 
@@ -49,7 +56,8 @@ class NoteAdapter (
         val noteContent = dataSEt[position].content
 
         holder.binding.text.text=noteContent
-        holder.onDeleteclicklistenner()
+       holder.onDeleteclicklistenner()
+        holder.addToFavorite()
 
 
 

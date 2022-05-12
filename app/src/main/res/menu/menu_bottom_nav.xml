@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:title="@string/menu"
          android:icon="@drawable/menu"
-        android:id="@string/menu"
+        android:id="@+id/myMenu"
 
         />
-    <item android:id="@string/favorites"
+    <item android:id="@+id/favorites2"
         android:icon="@drawable/ic_baseline_favorite_24"
         android:title="@string/favorites"
          android:iconTint="@color/black"    />

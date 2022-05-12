@@ -11,5 +11,6 @@ class MainActivityVM(
 
     fun getAllNotes()= noteDao.getNotes()
     fun deleteItem(note: Note) = thread { noteDao.deleteNote(note) }
-    fun updateNote(note:Note) = thread { noteDao.upsertNote(note) }
+    fun updateNote(note:Note) = thread { noteDao.updateUsers(note) }
+    fun getFavoritesNote() = noteDao.getFavoritesNote()
 }

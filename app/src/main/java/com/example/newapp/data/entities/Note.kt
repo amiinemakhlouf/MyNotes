@@ -15,7 +15,7 @@ data class Note(
     val content:String,
     @ColumnInfo(name="Category")
     val category:String,
-    var isFavorite :Boolean?=false
+    var isFavorite :Int?=0
 )
 {       @PrimaryKey(autoGenerate = true)
           var id:Int?=null

@@ -14,7 +14,9 @@ interface  NoteDao{
      @Query("select * from note")
      fun getNotes():LiveData<List<Note>?>
     @Update
-
     fun updateUsers(vararg users: Note)
+
+    @Query(" select * from Note where isFavorite = 1")
+    fun getFavoritesNote() :LiveData<List<Note>>
 
 }
